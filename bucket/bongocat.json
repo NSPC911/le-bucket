@@ -1,14 +1,22 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Adds a bongo cat on your taskbar!",
     "homepage": "https://github.com/NSPC911/bongo-cat/",
     "license": "MIT",
-    "url": "https://github.com/NSPC911/bongo-cat/releases/download/v1.0.1/portable.zip",
-    "shortcuts": [["bongocat.exe", "Bongo Cat"]],
-    "bin": [["bongocat.exe", "Bongo Cat"]],
-    "persist": [
-        "config"
+    "url": "https://github.com/NSPC911/bongo-cat/releases/download/v1.0.2/portable.zip",
+    "shortcuts": [
+        [
+            "bongocat.exe",
+            "Bongo Cat"
+        ]
     ],
+    "bin": [
+        [
+            "bongocat.exe",
+            "Bongo Cat"
+        ]
+    ],
+    "persist": "config",
     "checkver": {
         "github": "https://github.com/NSPC911/bongo-cat"
     },
