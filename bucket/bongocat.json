@@ -13,7 +13,7 @@
     "bin": [
         [
             "bongocat.exe",
-            "Bongo Cat"
+            "bongocat"
         ]
     ],
     "persist": "config",
