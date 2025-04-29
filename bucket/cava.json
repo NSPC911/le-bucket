@@ -1,0 +1,19 @@
+{
+    "version": "1.0.2",
+    "description": "Cross platform Audio VisuAlizer",
+    "homepage": "https://github.com/karlstav/cava/",
+    "license": "MIT",
+    "url": "https://github.com/karlstav/cava/releases/download/0.10.4/cava_win.zip",
+    "bin": [
+        [
+            "cava.exe",
+            "cava"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/karlstav/cava/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/karlstav/cava/releases/download/$version/cava_win.zip"
+    }
+}
