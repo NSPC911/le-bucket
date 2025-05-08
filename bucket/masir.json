@@ -13,9 +13,7 @@
             "hash": "66f69cc063a22cffebcd230b8529991e3ddd1e450bd941ebe3662582ab78051d"
         }
     },
-    "bin": [
-        "masir.exe"
-    ],
+    "bin": ["masir.exe"],
     "checkver": {
         "github": "https://github.com/LGUG2Z/masir"
     },
