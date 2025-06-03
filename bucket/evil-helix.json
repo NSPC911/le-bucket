@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "version": "20250601",
     "description": "Bringing the Helix editor to the eVil side",
     "homepage": "https://evil-helix.github.io",
