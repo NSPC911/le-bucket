@@ -7,7 +7,7 @@
     "architecture": {
         "arm64": {
             "url": [
-                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe",
+                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio.exe",
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
@@ -17,7 +17,7 @@
         },
         "64bit": {
             "url": [
-                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe",
+                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio.exe",
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
@@ -26,19 +26,9 @@
             ]
         }
     },
-    "bin": [
-        [
-            "rio.exe",
-            "rio-nightly"
-        ]
-    ],
+    "bin": [["rio.exe", "rio-nightly"]],
     "shortcuts": [
-        [
-            "rio-portable-x86_64.exe",
-            "Rio Nightly",
-            "--working-dir %USERPROFILE%",
-            "rio.ico"
-        ]
+        ["rio.exe", "Rio Nightly", "--working-dir %USERPROFILE%", "rio.ico"]
     ],
     "checkver": {
         "url": "https://api.github.com/repositories/546129875/releases/tags/nightly",
@@ -49,13 +39,13 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe",
+                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio.exe",
                     "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
                 ]
             },
             "arm64": {
                 "url": [
-                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe",
+                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio.exe",
                     "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
                 ]
             }
