@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "version": "0.13.28",
     "homepage": "https://myriad-dreamin.github.io/tinymist/",
     "description": "Tinymist is an integrated language service for Typst.",
