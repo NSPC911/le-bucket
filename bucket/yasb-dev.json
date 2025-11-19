@@ -4,10 +4,10 @@
     "description": "A highly configurable Windows status bar written in Python. ",
     "homepage": "https://github.com/amnweb/yasb",
     "license": "MIT",
-    "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-win64.msi",
+    "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-x64.msi",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-win64.msi",
+            "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-x64.msi",
             "hash": "5adc822df45fe43b1a9ceb40caf9bf522e5f33daad4c77dbf3cf8182813f7c18"
         }
     },
@@ -34,12 +34,13 @@
     "checkver": {
         "url": "https://api.github.com/repositories/823761490/releases/tags/dev",
         "jsonpath": "$.created_at",
-        "regex": "([^T]+)"
+        "regex": "([^-]+)-([^-]+)-([^T]+)T([^:]+):([^:]+):([^Z]+)",
+        "replace": "${1}${2}${3}-${4}${5}${6}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-win64.msi"
+                "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-x64.msi"
             }
         }
     }
