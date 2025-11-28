@@ -26,19 +26,9 @@
             ]
         }
     },
-    "bin": [
-        [
-            "rio.exe",
-            "rio-nightly"
-        ]
-    ],
+    "bin": [["rio.exe", "rio-nightly"]],
     "shortcuts": [
-        [
-            "rio.exe",
-            "Rio Nightly",
-            "--working-dir %USERPROFILE%",
-            "rio.ico"
-        ]
+        ["rio.exe", "Rio Nightly", "--working-dir %USERPROFILE%", "rio.ico"]
     ],
     "checkver": {
         "url": "https://api.github.com/repositories/546129875/releases/tags/nightly",
