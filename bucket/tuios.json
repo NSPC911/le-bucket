@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "0.4.3",
+    "version": "0.4.4",
     "description": "Terminal UI OS (Terminal Multiplexer)",
     "homepage": "https://github.com/Gaurav-Gosain/tuios",
     "license": "MIT",
-    "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.4.3/tuios_0.4.3_Windows_x86_64.tar.gz",
-    "hash": "f379f26a027881e2fba984863636733089b12a07c40f1ebb005731ccbc6701aa",
+    "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.4.4/tuios_0.4.4_Windows_x86_64.tar.gz",
+    "hash": "6c1cbe3f129c303eafa614d8a3b5f996779a8830b6d81b6ab794c91e6aab3666",
     "bin": [
         [
             "tuios.exe",
