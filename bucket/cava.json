@@ -1,16 +1,17 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "0.10.4",
+    "version": "0.10.7",
     "description": "Cross platform Audio VisuAlizer",
     "homepage": "https://github.com/karlstav/cava/",
     "license": "MIT",
-    "url": "https://github.com/karlstav/cava/releases/download/0.10.4/cava_win.zip",
-    "hash": "d7a3a4fdd736d6a2b225e33bdb16eb2d13705a15c5b7a9ed3f88c88e88f6a0fb",
+    "url": "https://github.com/karlstav/cava/releases/download/0.10.7/cava_win_x64_install.msi",
+    "hash": "sha256:f18d8badde2a5b6df0fc790ee6a05dabab74a7d2f237b6d832496c01d9b0c590",
+    "extract_dir": "LocalApp/cava",
     "bin": [["cava.exe", "cava"]],
     "checkver": {
         "github": "https://github.com/karlstav/cava/"
     },
     "autoupdate": {
-        "url": "https://github.com/karlstav/cava/releases/download/$version/cava_win.zip"
+        "url": "https://github.com/karlstav/cava/releases/download/$version/cava_win_x64_install.msi"
     }
 }
