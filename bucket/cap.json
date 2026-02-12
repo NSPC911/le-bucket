@@ -24,5 +24,8 @@
     "checkver": {
         "url": "https://api.github.com/repos/CapSoftware/Cap/releases/latest",
         "jsonpath": "$.name"
+    },
+    "autoupdate": {
+        "url": "https://cap.so/download/windows#/dl.exe"
     }
 }
