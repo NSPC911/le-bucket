@@ -11,7 +11,7 @@
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "7bdec9dc6388d80583361626b4587084014a50857f2fb9d56834ca9266349c28",
+                "sha256:5c70033b16d48ca50ee474756c0d87420215d77899867554b96aa08055f6972b",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         },
@@ -21,7 +21,7 @@
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "8a8b8c27b6c5528130eb163bd71c9d17f892a35219dc576a8072e364c1db576e",
+                "sha256:adb3f7cb3a15e66fbceaf3742a2bccd337682c218ca27bc04b87f3c540f50a7b",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         }
