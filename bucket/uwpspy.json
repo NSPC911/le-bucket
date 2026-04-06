@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "description": "Inspection tool for UWP and WinUI 3 apps. Seamlessly view and manipulate UI elements and their properties in real time.",
     "homepage": "https://ramensoftware.com/uwpspy",
     "license": {
@@ -8,7 +8,7 @@
         "url": "https://github.com/m417z/UWPSpy/blob/main/LICENSE"
     },
     "url": "https://ramensoftware.com/downloads/UWPSpy.zip",
-    "hash": "e1431dc846acdffe2a07f94740b3485a68fee675deb993a80bf3644408a940dd",
+    "hash": "a5d04264af83f6432a9d1278d7e3cf3cef1f15fa91056c03e4763905853f34ac",
     "shortcuts": [
         [
             "UWPSpy.exe",
