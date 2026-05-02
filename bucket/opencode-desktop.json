@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "1.14.31",
+    "version": "1.14.32",
     "description": "Opencode Desktop",
     "homepage": "https://opencode.ai",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sst/opencode/releases/download/v1.14.31/opencode-desktop-windows-x64.exe#/dl.7z",
-            "hash": "682c6fdb3729cd66466993aca961da8337b819dc1aa1e29133f79b41a877a855"
+            "url": "https://github.com/sst/opencode/releases/download/v1.14.32/opencode-desktop-windows-x64.exe#/dl.7z",
+            "hash": "f5954478bd82d2f75515365905c7f58994061032f2f8fbde3ef74e7e3ae35e29"
         }
     },
     "bin": [
