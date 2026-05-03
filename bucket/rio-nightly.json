@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "2026-04-29",
+    "version": "2026-05-02",
     "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers",
     "homepage": "https://github.com/raphamorim/rio",
     "license": "MIT",
@@ -11,7 +11,7 @@
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "f381ae5665d8c462a624ca4cf5470d28f6b3af9cd08f8b5218f2003ae8ace95d",
+                "b8229f7a67c78c728f63c62ed2e91692012684bdef9657804f903789d8dad8bb",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         },
@@ -21,7 +21,7 @@
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "18e7e28fbff19eead7cdda5bdd86220910b9c66982da5732f728f27433f26f18",
+                "67349c9d49b512f600124bcdfff238ba5da615d277c0913b71699864895498e8",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         }
