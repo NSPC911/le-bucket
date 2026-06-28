@@ -43,5 +43,8 @@
                 "url": "https://github.com/amnweb/yasb/releases/download/dev/yasb-dev-x64.msi"
             }
         }
-    }
+    },
+    "notes": [
+        "Deprecated, please use yasb-preview instead."
+    ]
 }

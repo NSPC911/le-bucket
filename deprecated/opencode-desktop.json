@@ -31,5 +31,8 @@
                 "url": "https://github.com/sst/opencode/releases/download/v$version/opencode-desktop-windows-x64.exe#/dl.7z"
             }
         }
-    }
+    },
+    "notes": [
+        "Deprecated, please use extras/opencode-desktop"
+    ]
 }
