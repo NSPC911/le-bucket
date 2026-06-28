@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "version": "20260628-030605",
-    "description": "A highly configurable Windows status bar written in Python. ",
+    "description": "A highly configurable Windows status bar written in Python. (Preview tag)",
     "homepage": "https://github.com/amnweb/yasb",
     "license": "MIT",
     "architecture": {
@@ -11,18 +11,9 @@
         }
     },
     "bin": [
-        [
-            "yasb.exe",
-            "yasb_dev"
-        ],
-        [
-            "yasbc.exe",
-            "yasbc_dev"
-        ],
-        [
-            "yasb_themes.exe",
-            "yasb_themes_dev"
-        ]
+        "yasb.exe",
+        "yasbc.exe",
+        "yasb_themes.exe"
     ],
     "shortcuts": [
         [
