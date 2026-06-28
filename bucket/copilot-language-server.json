@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "1.509.0",
+    "version": "1.513.0",
     "description": "The Copilot Language Server enables any editor or IDE to integrate with GitHub Copilot via the language server protocol.",
     "homepage": "https://github.com/github/copilot-language-server-release",
     "license": "MIT",
-    "url": "https://github.com/github/copilot-language-server-release/releases/download/1.509.0/copilot-language-server-win32-x64-1.509.0.zip",
-    "hash": "0e19ab013e54e94da9d2765c704c47bb4a12ca48bd4511a7056e9b71690b172a",
+    "url": "https://github.com/github/copilot-language-server-release/releases/download/1.513.0/copilot-language-server-win32-x64-1.513.0.zip",
+    "hash": "e0d43257365c2079e44679da1cbded70ac06d2d7e42108fd6e01f461ba5c2184",
     "bin": "copilot-language-server.exe",
     "checkver": {
         "github": "https://github.com/github/copilot-language-server-release"
