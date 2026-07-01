@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "Beautiful, shareable screen recordings",
     "homepage": "https://cap.so/",
     "license": {
         "identifier": "AGPL-3.0-only|MIT"
     },
     "url": "https://cap.so/download/windows#/dl.exe",
-    "hash": "d7e45254b5629c8ec91f3ebe3689238d4a6e8014f025bd711b40556e33ac783a",
+    "hash": "238da755a766a4ac09f3372558271b12f1866f0126be879e958496446fffc42a",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\dl.exe\" \"$dir\\cap\"",
