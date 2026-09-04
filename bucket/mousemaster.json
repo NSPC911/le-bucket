@@ -2,13 +2,11 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "description": "Mouseless mouse control and advanced keyboard customization for Windows and macOS.",
     "homepage": "https://github.com/petoncle/mousemaster",
-    "version": "93",
+    "version": "94",
     "license": "Apache-2.0|EPL-1.0|GPL-3.0|LGPL-2.1|LGPL-3.0|MI",
-    "url": "https://github.com/petoncle/mousemaster/releases/download/93/mousemaster.exe",
-    "hash": "sha256:a9bb1ad51895be12a3e2071416efa86b71f571a445f532b6c815b1e17eb189ae",
-    "pre_install": [
-        "New-Item -Path (Join-Path $dir 'mousemaster.properties') -ItemType File -ErrorAction Ignore | Out-Null"
-    ],
+    "url": "https://github.com/petoncle/mousemaster/releases/download/94/mousemaster.exe",
+    "hash": "a19a551652655d32a7866da76e3b4e6616470171f395dfedb5d2dab74e6f27a9",
+    "pre_install": "New-Item -Path (Join-Path $dir 'mousemaster.properties') -ItemType File -ErrorAction Ignore | Out-Null",
     "post_install": [
         "$out = Invoke-RestMethod 'https://api.github.com/repos/petoncle/mousemaster/releases'",
         "$this = $out | Where-Object {$_.name -eq ('v' + $version)}",
@@ -17,7 +15,12 @@
     ],
     "notes": "Default configs are downloaded from the latest release. You can edit mousemaster.properties to customize your settings.",
     "bin": "mousemaster.exe",
-    "persist": [["mousemaster.properties", "mousemaster.properties"]],
+    "persist": [
+        [
+            "mousemaster.properties",
+            "mousemaster.properties"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/petoncle/mousemaster/releases/download/$version/mousemaster.exe"
