@@ -2,10 +2,10 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "description": "Mouseless mouse control and advanced keyboard customization for Windows and macOS.",
     "homepage": "https://github.com/petoncle/mousemaster",
-    "version": "94",
+    "version": "95",
     "license": "Apache-2.0|EPL-1.0|GPL-3.0|LGPL-2.1|LGPL-3.0|MI",
-    "url": "https://github.com/petoncle/mousemaster/releases/download/94/mousemaster.exe",
-    "hash": "a19a551652655d32a7866da76e3b4e6616470171f395dfedb5d2dab74e6f27a9",
+    "url": "https://github.com/petoncle/mousemaster/releases/download/95/mousemaster.exe",
+    "hash": "5e2291a22040de0d69f2d8b01e92ee7f99566c365b1027e4e57860e9af0de58f",
     "pre_install": "New-Item -Path (Join-Path $dir 'mousemaster.properties') -ItemType File -ErrorAction Ignore | Out-Null",
     "post_install": [
         "$out = Invoke-RestMethod 'https://api.github.com/repos/petoncle/mousemaster/releases'",
