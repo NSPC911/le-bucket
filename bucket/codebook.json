@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
     "license": "MIT",
     "homepage": "https://github.com/blopker/codebook",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Spell Checker for Code",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blopker/codebook/releases/download/v0.4.0/codebook-lsp-x86_64-pc-windows-msvc.zip",
-            "hash": "51f2c55bb266b502e57eccbb5f016989c7687f3b2d947b85ac5f9cd98fb0866c"
+            "url": "https://github.com/blopker/codebook/releases/download/v0.4.1/codebook-lsp-x86_64-pc-windows-msvc.zip",
+            "hash": "f74a06f22243533ae3071ef97c00c322fa406c313f2bc660018176813864d89a"
         }
     },
     "bin": "codebook-lsp.exe",
