@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "0.46.0",
+    "version": "0.46.1",
     "description": "A terminal workspace, with batteries included",
     "homepage": "https://github.com/zellij-org/zellij",
     "license": "MIT",
-    "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc.zip",
-    "hash": "be19eed784ed3dd22a3b179b8b79086c0e3ee67ddc836092a1ea9d4306dfd934",
+    "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.1/zellij-x86_64-pc-windows-msvc.zip",
+    "hash": "a2fe1b52ba8cd08d75a3a7ee8b9ecf66d8a8bbaf65ed6096a506f65a69a2c77b",
     "bin": "zellij.exe",
     "checkver": "github",
     "autoupdate": {
