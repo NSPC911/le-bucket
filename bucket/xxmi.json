@@ -18,8 +18,13 @@
         ]
     ],
     "pre_install": [
-        "New-Item -Path (Join-Path $persist_dir 'XXMI.json') -ItemType File -ErrorAction SilentlyContinue",
-        "New-Item -Path (Join-Path $dir 'XXMI Launcher Config.json') -ItemType SymbolicLink -Value (Join-Path $persist_dir 'XXMI.json') -Force -ErrorAction SilentlyContinue"
+        "$xpersist = (Join-Path $persist_dir 'XXMI.json')",
+        "New-Item -Path $xpersist -ItemType File -ErrorAction SilentlyContinue",
+        "New-Item -Path (Join-Path $dir 'XXMI Launcher Config.json') -ItemType SymbolicLink -Value $xpersist -Force -ErrorAction SilentlyContinue",
+        "$xc = Get-Content $xpersist",
+        "if (($null -eq $xc) -or ('' -eq $xc.Trim())) {",
+        "    Set-Content -Path $xpersist -Value '{}' -Encoding UTF8",
+        "} else { Get-Content $xpersist }"
     ],
     "persist": [
         "EFMI/Mods",
