@@ -1,0 +1,44 @@
+{
+    "version": "2.5.0",
+    "description": "Modding Platform for GI, HSR, WW and ZZZ",
+    "homepage": "https://github.com/SpectrumQT/XXMI-Launcher",
+    "url": "https://github.com/SpectrumQT/XXMI-Launcher/releases/download/v2.5.0/XXMI-Launcher-Portable-v2.5.0.zip",
+    "hash": "b519f223c8fa9493ecfae0661524d281d8086041d4413fcef0223dfb80d30493",
+    "license": "GPL-3.0-only",
+    "shortcuts": [
+        [
+            "Resources\\Bin\\XXMI Launcher.exe",
+            "XXMI Launcher"
+        ]
+    ],
+    "bin": [
+        [
+            "Resources\\Bin\\XXMI Launcher.exe",
+            "xxmi"
+        ]
+    ],
+    "pre_install": [
+        "New-Item -Path (Join-Path $persist_dir 'XXMI.json') -ItemType File -ErrorAction SilentlyContinue",
+        "New-Item -Path (Join-Path $dir 'XXMI Launcher Config.json') -ItemType SymbolicLink -Value (Join-Path $persist_dir 'XXMI.json') -Force -ErrorAction SilentlyContinue"
+    ],
+    "persist": [
+        "EFMI/Mods",
+        "EFMI/ShaderFixes",
+        "GIMI/Mods",
+        "GIMI/ShaderFixes",
+        "HIMI/Mods",
+        "HIMI/ShaderFixes",
+        "SRMI/Mods",
+        "SRMI/ShaderFixes",
+        "WWMI/Mods",
+        "WWMI/ShaderFixes",
+        "ZZMI/Mods",
+        "ZZMI/ShaderFixes"
+    ],
+    "checkver": {
+        "github": "https://github.com/SpectrumQT/XXMI-Launcher"
+    },
+    "autoupdate": {
+        "url": "https://github.com/SpectrumQT/XXMI-Launcher/releases/download/v$version/XXMI-Launcher-Portable-v$version.zip"
+    }
+}
